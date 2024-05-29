@@ -2,5 +2,5 @@ from django.db import models
 
 class Project(models.Model):
     title = models.CharField(max_length=100)
-    desciption = models.TextField()
+    description = models.TextField()
     technology = models.CharField(max_length=100)
