@@ -5,7 +5,3 @@ class ProjectAdmin(admin.ModelAdmin):
     list_display = ("title", "technology")
 
 admin.site.register(Project, ProjectAdmin)
-
-
-
-    
