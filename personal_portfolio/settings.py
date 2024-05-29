@@ -51,6 +51,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+MEDIA_ROOT = BASE_DIR / "uploads/"
+MEDIA_URL = "media/"
+
 ROOT_URLCONF = 'personal_portfolio.urls'
 
 TEMPLATES = [
