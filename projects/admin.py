@@ -2,6 +2,10 @@ from django.contrib import admin
 from projects.models import Project
 
 class ProjectAdmin(admin.ModelAdmin):
-    pass
+    list_display = ("title", "technology")
 
 admin.site.register(Project, ProjectAdmin)
+
+
+
+    
